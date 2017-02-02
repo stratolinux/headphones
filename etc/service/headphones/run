@@ -1,4 +1,4 @@
 #! /bin/sh
 cd $APPDIR
 
-exec /usr/bin/python Headphones.py -p 8181 --datadir=/config --nolaunch
+exec /usr/bin/python Headphones.py --host=0.0.0.0 -p 8181 --datadir=/config --nolaunch
